@@ -18,13 +18,18 @@ namespace ExceptionHandling
             
             try
             {
+                // Divide by zero exception
                 //int c = a / b;
                 //Console.WriteLine(c);
 
+                //DivideByZero Exception
                 //int x = ar[0];
 
+                // File not found exception
                 //File.Open("sample.txt",FileMode.Open);
 
+
+                // User defined exception
                 if (true)
                     throw new ExceptionExample("Hello, ");
 
