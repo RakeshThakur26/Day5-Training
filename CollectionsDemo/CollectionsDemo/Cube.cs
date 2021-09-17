@@ -18,11 +18,13 @@ namespace CollectionsDemo
 
         public double area()
         {
+            Console.Write("Area of Cube is = ");
               return (6*x*x);
         }
 
         public double volume()
         {
+            Console.Write("Volume of Cube is = ");
             return (x*x*x);
         }
     }
@@ -33,11 +35,15 @@ namespace CollectionsDemo
 
         public double area()
         {
+            Console.Write("Area of Circle is = ");
+
             return (3.142 * radius * radius);
         }
 
         public double volume()
         {
+            Console.Write("Volume of Circle is = ");
+
             return (0);
         }
 

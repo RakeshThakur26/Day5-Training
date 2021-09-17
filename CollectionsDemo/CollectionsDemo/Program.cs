@@ -37,20 +37,17 @@ namespace CollectionsDemo
 
 
 
-            Rectangle rt = new Rectangle(20,10, "RED");
-            rt.displayArea();
+            //Rectangle rt = new Rectangle(20,10, "RED");
+            //rt.displayArea();
 
-            //Cube ss = new Cube();
-            //Console.WriteLine("Cube dimentions...");
-            //Console.WriteLine("Area of Cube is = " + ss.area());
-            //Console.WriteLine("Volume of Cube is = " + ss.volume());
 
-           
-            //circle cc = new circle();
-            //Console.WriteLine("Circle dimentions...");
+            Shapes[] ss = { new Cube(), new circle() };
 
-            //Console.WriteLine("Area of Circle is = " + cc.area());
-            //Console.WriteLine("Volume of Circle is = " + cc.volume());
+            for (int i = 0; i < ss.Length; i++)
+            { 
+                Console.WriteLine(ss[i].area());
+                Console.WriteLine(ss[i].volume());
+            }
 
             Console.ReadLine();
 
